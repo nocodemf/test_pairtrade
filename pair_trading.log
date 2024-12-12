@@ -1,0 +1,51 @@
+2024-12-12 17:20:42,098 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2024-12-12 17:20:42,099 - INFO - Connected
+2024-12-12 17:20:42,117 - INFO - Logged on to server version 176
+2024-12-12 17:20:42,121 - INFO - API connection ready
+2024-12-12 17:20:42,121 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:uscrypto
+2024-12-12 17:20:42,121 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:hfarm
+2024-12-12 17:20:42,121 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2024-12-12 17:20:42,121 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:jfarm
+2024-12-12 17:20:42,121 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2024-12-12 17:20:42,121 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:eufarmnj
+2024-12-12 17:20:42,121 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2024-12-12 17:20:42,121 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2024-12-12 17:20:42,121 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:cashhmds
+2024-12-12 17:20:42,121 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2024-12-12 17:20:42,121 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2024-12-12 17:20:42,121 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2024-12-12 17:20:42,425 - INFO - Synchronization complete
+2024-12-12 17:20:42,425 - INFO - Connected to IB
+2024-12-12 17:20:43,074 - INFO - Spread: 206.51000000000002, Z-score: 2.1055785076449904
+2024-12-12 17:20:43,075 - INFO - placeOrder: New order Trade(contract=Stock(conId=272093, symbol='MSFT', exchange='SMART', primaryExchange='ISLAND', currency='USD', localSymbol='MSFT', tradingClass='NMS'), order=MarketOrder(orderId=7, clientId=1, action='SELL', totalQuantity=21), orderStatus=OrderStatus(orderId=7, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 12, 12, 17, 20, 43, 75352, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-12-12 17:20:43,075 - INFO - Placed SELL order for MSFT with quantity 21
+2024-12-12 17:20:43,075 - INFO - placeOrder: New order Trade(contract=Stock(conId=265598, symbol='AAPL', exchange='SMART', primaryExchange='ISLAND', currency='USD', localSymbol='AAPL', tradingClass='NMS'), order=MarketOrder(orderId=8, clientId=1, action='BUY', totalQuantity=40), orderStatus=OrderStatus(orderId=8, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 12, 12, 17, 20, 43, 75814, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-12-12 17:20:43,075 - INFO - Placed BUY order for AAPL with quantity 40
+2024-12-12 17:20:43,076 - INFO - Short MSFT, long AAPL
+2024-12-12 17:22:25,549 - INFO - Disconnecting from 127.0.0.1:7497, 792 B sent in 14 messages, 20.3 kB received in 343 messages, session time 103 s.
+2024-12-12 17:22:25,549 - INFO - Disconnecting
+2024-12-12 17:22:25,550 - INFO - Disconnected from IB
+2024-12-12 17:22:55,610 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2024-12-12 17:22:55,611 - INFO - Connected
+2024-12-12 17:22:55,621 - INFO - Logged on to server version 176
+2024-12-12 17:22:55,624 - INFO - API connection ready
+2024-12-12 17:22:55,624 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:uscrypto
+2024-12-12 17:22:55,624 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:hfarm
+2024-12-12 17:22:55,624 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2024-12-12 17:22:55,624 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:jfarm
+2024-12-12 17:22:55,624 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2024-12-12 17:22:55,624 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:eufarmnj
+2024-12-12 17:22:55,624 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2024-12-12 17:22:55,624 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2024-12-12 17:22:55,624 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:cashhmds
+2024-12-12 17:22:55,624 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2024-12-12 17:22:55,624 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2024-12-12 17:22:55,625 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2024-12-12 17:22:55,733 - INFO - Synchronization complete
+2024-12-12 17:22:55,733 - INFO - Connected to IB
+2024-12-12 17:22:56,460 - INFO - Spread: 206.59, Z-score: 2.114858630189111
+2024-12-12 17:22:56,460 - INFO - placeOrder: New order Trade(contract=Stock(conId=272093, symbol='MSFT', exchange='SMART', primaryExchange='ISLAND', currency='USD', localSymbol='MSFT', tradingClass='NMS'), order=MarketOrder(orderId=15, clientId=1, action='SELL', totalQuantity=21), orderStatus=OrderStatus(orderId=15, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 12, 12, 17, 22, 56, 460787, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-12-12 17:22:56,461 - INFO - Placed SELL order for MSFT with quantity 21
+2024-12-12 17:22:56,461 - INFO - placeOrder: New order Trade(contract=Stock(conId=265598, symbol='AAPL', exchange='SMART', primaryExchange='ISLAND', currency='USD', localSymbol='AAPL', tradingClass='NMS'), order=MarketOrder(orderId=16, clientId=1, action='BUY', totalQuantity=40), orderStatus=OrderStatus(orderId=16, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 12, 12, 17, 22, 56, 461311, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-12-12 17:22:56,461 - INFO - Placed BUY order for AAPL with quantity 40
+2024-12-12 17:22:56,461 - INFO - Short MSFT, long AAPL
